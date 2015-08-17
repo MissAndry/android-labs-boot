@@ -10,5 +10,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="40sp"
-        tools:text="Hello World!"/>
+        android:text="@string/whatup"
+        />
 </FrameLayout>

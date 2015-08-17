@@ -15,6 +15,7 @@ import javax.inject.Inject;
 
 import io.pivotal.labsboot.BuildConfig;
 import io.pivotal.labsboot.R;
+import io.pivotal.labsboot.RobolectricDataBindingTestRunner;
 import io.pivotal.labsboot.TestAndroidBootApplication;
 
 import static org.fest.assertions.api.ANDROID.assertThat;
@@ -24,7 +25,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyZeroInteractions;
 
 
-@RunWith(RobolectricGradleTestRunner.class)
+@RunWith(RobolectricDataBindingTestRunner.class)
 @Config(constants=BuildConfig.class)
 public class AndroidBootActivityTest {
 
